@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+input{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    width: 15%;
+    height: 15px;
+    border: 1px solid ;
+}
+.list{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 0 30px;
+}
+
+.list__item{
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    background: rgb(56, 27,74);
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    width: 300px;
+    height: 40px;
+    border: 1 solid ;
+    background: green;
+    color: white;
+}
+select{
+    height: 30px;
+    margin: 10px;
+}
